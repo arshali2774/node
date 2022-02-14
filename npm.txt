@@ -12,4 +12,37 @@ manual approach (create package.json in the root, create properties etc)
 npm init (step by step, press enter to skip)
 npm init -y (everything default)
 
- 
+HOW TO SETUP A GIT REPO
+- Create a github account and make a new repo.
+- Copy the commands.
+- always have a git igonre file to not upload node mosules.
+- Follow these commands
+    - git init
+    - git add .
+    - git commit -m "comment"
+    - paste the copied commands
+- refresh the repo
+
+How to clone a repo
+- copy the repo link
+- command is git clone then paste the url
+- npm install if there is a json file
+
+nodemon package is used to restart our app.
+npm i nodemon -D 
+always instal as dev dependencies.
+
+in script of json file we can write commands.
+for e.g. 
+"start":"node app.js"
+in terminal we can write 'npm start' and it will run the node app.js command.
+but some command require 'npm run' command, such as.
+"dev":"nodemon app.js"
+this will run when we run this command in the terminal.
+'npm run dev'
+
+either this or we can simple write, start : nodemon app.js and in terminal npm start.
+
+uninstall package - npm uninstall 'package name'
+
+nuclear approach - delete the node modules and the package.lock.json file and remove it from dependencies then we run terminal with command npm install.
