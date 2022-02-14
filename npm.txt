@@ -46,3 +46,5 @@ either this or we can simple write, start : nodemon app.js and in terminal npm s
 uninstall package - npm uninstall 'package name'
 
 nuclear approach - delete the node modules and the package.lock.json file and remove it from dependencies then we run terminal with command npm install.
+
+nodesources is a website for more info on package.json.
